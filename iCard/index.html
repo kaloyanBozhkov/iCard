@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>myPOS | ICard</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="shortcut icon" type="image/ico" href="assets/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="assets/images/favicon.ico"/>
+    <meta name="robots" content="index, nofollow">
+	<meta name="description" content="This is a website I worked on as an exercise for ICard's recruitment process. It is made through CSS3, HTML, JavaScript (and the JQuery library) and the Boostrap 3 framework as per the task's requirements. It is completely responsive and mobile friendly.">
+  	<meta name="keywords" content="kaloyan, bozhkov, ICard, website, CSS3, HTML, JavaScript, Mobile, Friendly, myPOS">
+ 	<meta name="author" content="Kaloyan Bozhkov">
+	<!-- Bootstrap css -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Normalize css -->
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<!-- Custom css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- Roboto medium font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body class="overflow-hidden">
+<div class="fill-both" style="overflow-y:scroll;overflow-x:hidden;position:relative;">
+<!-- Start navbar -->
+
+<nav id="navigationBar" class="navbar navigationBar-transparent position-absolute top-0-left-0 fill-width z-index-top-105">
+	<div class="container-fluid">
+	<div class="navbar-header shadow-bottom">
+	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+		<span class="glyphicon glyphicon-menu-hamburger"></span>
+	</button>
+	
+	</div>
+	<div class="navbar-collapse collapse" id="myNavbar" aria-expanded="false" style="height: 1px;">
+    <div class="row text-center text-shadow">
+		<div class="col-md-6 col-md-push-1">
+		<ul id="leftSideBar" class="nav navbar-nav">
+			<li id="logo">
+				<a class="navbar-brand" href="index.php" style="padding-right:0; height:auto">
+					<img src="assets/images/logo.png" alt="myPOS">
+				</a>
+			</li>
+			  <li class="active"><a href="#">HOME</a></li>
+			 
+			  <li><a href="#">FEATURES</a></li>
+			  <li><a href="#">ORDER</a></li>
+			   <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true">MORE<span class="caret"></span></a>
+				<ul class="dropdown-menu text-center">
+				  <li><a href="#">It's</a></li>
+				  <li><a href="#">Time</a></li>
+				  <li><a href="#">To</a></li>
+				  <li><a href="#">Duel!</a></li>
+				</ul>
+			  </li>
+		</ul>
+		</div>
+		<div class="col-md-5 col-md-push-0 col-sm-5 col-sm-push-1">
+			<ul class="nav navbar-nav navbar-right margin-bottom-0">
+			  <li id="smallActivatePos"><a href="#">
+			  <span class="glyphicon glyphicon-menu-right inline-block"></span>
+			  <p class="row-no-margin inline-block vertical-align-middle">ACTIVATE MY POS</p></a></li>
+			  <li id="smallSignUp"><a href="#"><span class="glyphicon glyphicon-ok inline-block"></span><p class="row-no-margin inline-block vertical-align-middle">SIGN UP</p></a></li>
+			  <li id="login">
+			  <a href="#">
+			  <span class="glyphicon glyphicon-lock inline-block"></span>
+			  <p class="row-no-margin inline-block vertical-align-middle">LOGIN</p>
+			  </a>
+			  </li>
+				<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false"><img src="assets/images/eng.png" alt="ENG"> <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li class="text-center"><a href="#"><img src="assets/images/it.png" alt="IT"></a></li>
+				</ul>
+				</li></ul>
+		</div>
+        </div>
+      
+    
+	</div>
+  </div>
+</nav>
+<!-- End navbar -->
+
+<!-- Content -->
+
+<div class="container-fluid position-relative roboto-medium">
+
+<!-- First panel -->
+	<div id="cBody" class="row overflow-hidden row-no-padding z-index-top-99">
+	
+		<div  id="slider" class="col-xs-12 position-relative">
+		<!-- Beginning of panel content -->
+			<div class="row row-no-margin position-absolute fill-both top-0-left-0 z-index-top-100">			
+				<div class="col-xs-6 parent fill-height z-index-top-100">
+					<div class='child'>
+						<div class="jumbotron fill-width text-shadow">
+							<h1>Join the payment<br/>revolution!</h1> 
+							<div class="subJumbotron">
+								<div id="1" class="activeText text">
+									<p>
+										<span class="a">One of the crucial aspects for maintaining a successful business is the constant flow of cash. With myPOS you have your money settled instantly.</span>
+										<br/>
+										<span class="b">Because that's how it should be.</span>
+									</p>
+								</div>
+								<div id="2" class="text">
+									<p>
+										<span class="a">Blabla bla bla blablaba bla balblabalblablablalbla blalb alb labla blalb alb allba lbal blablabl alb alb alb lab alb labla blab lablabla bl abl.</span>
+										<br/>
+										<span class="b">OKadkandkasld askdkasd poaksd.</span>
+									</p>
+								</div>
+							
+								<div id="3" class="text">
+									<p>
+										<span class="a">Qoaikfdnak qwdqfkfdpefog, asjdasdjasdoa! Wjafnadaps aosdasd aodjaspdasjda asodnadpgpqnqw qpwjasld apd aajas daksd adj asd asod.</span>
+										<br/>
+										<span class="b">Oasdj! Woansl. OWhls! Ok.</span>
+									</p>
+								</div>
+
+							</div>
+							<div id="textBtnMenu" class="row">
+								<svg height="20" width="20" class="svgActive">
+									<circle cx="10" cy="10" r="5"></circle> 
+								</svg>
+								<svg height="20" width="20">
+									<circle cx="10" cy="10" r="5"></circle> 
+								</svg>
+								<svg height="20" width="20">
+									<circle cx="10" cy="10" r="5"></circle> 
+								</svg>
+							</div>
+							<div class="row">	
+								<div class="col-md-4 col-md-push-2 margin-top-bottom-5">
+									<button type="button" class="bg-lightblue btn btn-default btn-block btnDefault shadow-bottom" id="signUp">SIGN UP</button>
+								</div>
+								
+								<div class="col-md-6 col-md-push-2 col-lg-5 col-lg-push-2  margin-top-bottom-5">
+									<button type="button" class="btn btn-default  btn-block  btnDefault shadow-bottom" id="activatePos">ACTIVATE myPOS</button>
+								</div>
+								
+								
+							</div>
+							
+						
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-xs-6 fill-height z-index-top-99">
+					<img src="assets/images/madman.png" alt="Mad myPos Man" id="madman" class="position-absolute">
+				</div>
+				
+			</div>
+		<!-- End of panel content -->
+			<div id="filter" class="fill-both top-0-left-0 z-index-top-99 position-absolute"></div>
+			
+			<img src="assets/images/slider1.png" alt="City Landscape" class="img-responsive fill-width">
+			<img src="assets/images/slider2.png" alt="Garden" class="img-responsive sliderBehind  fill-width">
+		</div>
+	</div>
+<!-- End first panel -->
+	<div id="dBody" class="row z-index-top-105 nav nav-tabs">
+<!-- Start of butttons -->
+	<!-- 1 -->
+		<div class="col-sm-3 col-lg-2 col-lg-push-2 dBodyButton border-top-0 border-bottom-0 border-left-1 border-right-1 padding-0 removeLeftBorder">
+		<div class="innerDiv fill-width text-center">
+		<a data-toggle="tab" href="#account" class="fill-width parent">
+			<div class="child fill-width-40 mobile-text-right-important">
+				<img src="assets/images/wallet.png" alt="Account">
+			</div>
+			<div class="child mobile-text-left-important">
+				<div  class="dBodyButtonInfo text-left">
+				<small>myPOS</small>
+				<h4>Account</h4>
+				</div>			
+			</div>
+		</a>
+		</div>
+		<div class="barDiv position-absolute bottom-0-right-0 block margin-0-auto"></div>
+		</div>
+	<!-- 2 -->
+		<div class="col-sm-3 col-lg-2 col-lg-push-2 dBodyButton dActive inner-shadow-round border-right-1 padding-0">
+		<div class="innerDiv fill-width text-center active">
+		<a data-toggle="tab" href="#virtual" class="fill-width parent">
+		<div class="child fill-width-40 mobile-text-right-important">
+			<img src="assets/images/pc.png" alt="Computer">
+		</div>
+		<div class="child mobile-text-left-important">
+			<div class="dBodyButtonInfo text-left">
+			<small>myPOS</small>
+			<h4>Virtual</h4>
+			</div>
+		</div>
+		</a>		
+		</div>
+		<div class="barDiv position-absolute bottom-0-right-0 block margin-0-auto"></div>		
+		</div>
+		<div id="mobileHidden" class="row desktopHidden overflow-hidden row-no-margin">
+		</div>
+	<!-- 3 -->
+		<div class="col-sm-3 col-lg-2 col-lg-push-2 dBodyButton padding-0">
+		<div class="innerDiv fill-width text-center mobile-text-right-important">
+		<a data-toggle="tab" href="#businessCard" class="fill-width parent">
+		<div class="child fill-width-40 mobile-text-right-important">
+			<img src="assets/images/businessCards.png"  alt="Business Card">
+		</div>
+		<div class="child mobile-text-left-important">
+			<div  class="dBodyButtonInfo text-left">
+			<small>myPOS</small>
+			<h4>Business Card</h4>
+			</div>
+		</div>
+		</a>			
+		</div>
+		<div class="barDiv position-absolute bottom-0-right-0 block margin-0-auto"></div>
+		</div>
+	<!-- 4 -->
+		<div class="col-sm-3 col-lg-2 col-lg-push-2 dBodyButton border-top-0 border-bottom-0 border-left-1 border-right-1 padding-0 removeRightBorder">
+		<div class="innerDiv fill-width text-center">
+		<a data-toggle="tab" href="#privateLabel" class="fill-width parent">
+		<div class="child fill-width-40 mobile-text-right-important">
+			<img src="assets/images/label.png"  alt="Private Label">
+		</div>
+		<div class="child  mobile-text-left-important">
+			<div  class="dBodyButtonInfo text-left">
+			<small>myPOS</small>
+			<h4>Private Label</h4>
+			</div>
+		</div>
+		</a>
+		</div>
+		<div class="barDiv position-absolute bottom-0-right-0 block margin-0-auto"></div>
+		</div>
+<!-- End of butttons -->
+	</div>
+<!-- End of dBody -->
+
+<!-- Tab contents - Start of eBody-->
+	
+<div id="eBody" class="row mobileHidden hidden">	
+			<div class="tab-content overflow-hidden">
+			<div id="account" class="row tab-pane fade in">
+				<div class="container">
+				  <div class="jumbotron normal text-center" style="background-color:transparent;">
+					<h1>Account Page</h1> 
+					<p>Some page content here.</p> 
+				  </div>
+				</div>
+			</div>
+			<div id="virtual" class="row is-flex tab-pane fade in active">
+				<div id="virtualLeft" class="col-xs-12 col-md-12 col-lg-6 position-relative z-index-top-1 " style="min-height:450px;">
+				<div class="row z-index-top-105 fill-height">
+					<div class="sideComment col-xs-push-2 col-xs-8 col-md-6 col-md-push-3 col-lg-8 col-lg-push-4 fill-height text-center parent">					
+					<div class="fill-height child">
+						<h2>Modern online banking</h2>  
+						<br/>
+						<p>Easily collect the funds processed through myPOS in a business account with dedicated IBANs in multiple currencies.</p>
+						<div class="block hide-sub-1200 position-relative">
+						<svg height="50" width="20" style="position:absolute; right: -42px; top: -85px;">
+							<polygon points="25,0 0,25 25,50" style="fill:white;"></polygon>
+						</svg>
+					</div>
+					</div>	
+					</div>
+					
+				</div>
+					<div id="filter2" class="fill-both top-0-left-0 z-index-bottom-1 position-absolute"></div>
+					<div class="img-responsive fill-both position-absolute top-0-left-0 z-index-bottom-2" style="background-image:url(assets/images/bg2.png); background-size: cover;background-position: center;"></div>
+					<div class="img-responsive fill-both position-absolute top-0-left-0 z-index-bottom-2" style="background-image:url(assets/images/bg1.png); background-size: cover;background-position: center;"></div>
+					<svg class="hidden show-sub-1200 position-absolute bottom-0-right-0 left-0 margin-0-auto" height="25" width="50">
+					  <polygon points="0,25 25,0 50,25" style="fill:white;" />
+					</svg>
+				</div>
+				<div class="col-lg-4">
+					<div class="row padding-top-20 padding-bottom-20">
+					<div class="col-xs-3 col-md-2 col-lg-3 col-centered text-center">
+							<img src="assets/images/world.png" alt="Free IBAN">
+					</div>
+					<div class="col-xs-8 col-sm-8 col-md-10 col-lg-9 col-centered">
+						<p><b>FREE IBAN</b></p>
+						<p class="color-7">With myPOS account you receive free IBANs in multiple currencies. Each IBAN can be used for worldwide bank transfers at great rates.</p>
+					</div>
+					</div>
+					<div class="row padding-top-20 padding-bottom-20">
+						<div class="col-xs-3 col-md-2 col-lg-3 col-centered text-center">
+							<img src="assets/images/clock.png" alt="Free Merchant Account">
+						</div>
+					<div class="col-xs-8 col-sm-8 col-md-10 col-lg-9 col-centered">
+						<p><b>FREE MERCHANT ACCOUNT</b></p>
+						<p class="color-7">Multi-currency Electronic Money Account to which we settle the money from the card payments processed on your terminals. INSTANTLY!</p>
+					</div>
+					</div>
+					<div class="row padding-top-20 padding-bottom-20">
+						<div class="col-xs-3 col-md-2 col-lg-3 col-centered text-center">
+							<img src="assets/images/blueCards.png" alt="Free myPOS Card">
+						</div>
+
+						<div class="col-xs-8 col-md-10 col-lg-9 col-centered">
+							<p><b>FREE MYPOS CARD</b></p>
+							<p class="color-7">With your myPOS package you get a free Business MasterCard which you can link directly to your account.</p>
+						</div>
+					</div>
+					<div class="row padding-top-20 padding-bottom-20">
+						<div class="col-xs-3 col-md-2 col-lg-3 col-centered text-center">
+								<img src="assets/images/phone.png" alt="Free Mobile App">
+						</div>
+						<div class="col-xs-8 col-sm-8 col-md-10 col-lg-9 col-centered">
+							<p><b>EASY TO USE FREE MOBILE APP</b></p>
+							<p class="color-7">Get instant access to your account anytime with the free myPOS Mobile App.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="businessCard" class="row tab-pane fade">
+				<div class="container">
+				  <div class="jumbotron normal text-center" style="background-color:transparent;">
+					<h1>Business Card Page</h1> 
+					<p>Some page content here.</p> 
+				  </div>
+				</div>
+			</div>
+			<div id="privateLabel" class="row tab-pane fade">
+				<div class="container">
+				  <div class="jumbotron normal text-center" style="background-color:transparent;">
+					<h1>Private Label Page</h1> 
+					<p>Some page content here.</p> 
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!-- End of eBody -->
+	<!-- Start of fBody -->
+	<div id="fBody" class="row overflow-hidden">
+		<div class="col-xs-12">
+			<div class="container">
+			  <div class="jumbotron normal text-center" style="background-color:transparent;">
+				<h2 class="margin-0-auto"><b>myPOS Models</b></h2> 
+				<small>Choose the device that suits your needs in the best way.</small> 
+			  </div>
+			</div>
+		</div>
+		<div class="col-xs-12">
+			<div class="row">
+				<div class="col-lg-8 col-lg-push-2">
+				<div class="fill-height position-absolute bottom-0 mobileHidden desktopSmallHidden">
+				<div class="parent fill-height">
+				<div class="child">
+					<span id="previousProduct" class="previousProduct disabled glyphicon glyphicon-menu-left"></span>
+				</div>
+				</div>
+				</div>
+				<div class="fill-height position-absolute bottom-0 right-sub-20 mobileHidden desktopSmallHidden">
+				<div class="parent fill-height">
+				<div class="child">
+					<span id="nextProduct" class="nextProduct glyphicon glyphicon-menu-right"></span>
+				</div>
+				</div>
+				</div>
+				<p id="productName"><b>X</b></p>
+				<span id="nextProduct" class="nextProduct desktopSmallVisible glyphicon glyphicon-menu-right desktopHidden position-absolute" style="right: 15px;top: 20px;"></span>
+				<span id="previousProduct" class="previousProduct disabled desktopSmallVisible glyphicon glyphicon-menu-left desktopHidden position-absolute" style="right: 45px;top: 20px;
+				"></span>
+				<div class="progress">
+					<!-- progress bars loaded from javascript, based on AJAX callback returning product array -->
+				</div>
+				<div id="productSection" class="row is-flex">
+					<div class="col-xs-8 col-lg-7">	
+<!-- Begin loaded details -->					
+						<ul class="list-group">
+						<li class="list-group-item border-none white-space-nowrap padding-0 padding-bottom-20">
+							<span class="glyphicon glyphicon-ok padding-10px inline-block invisible"></span>
+							<p id="productHeader" class="inline-block row-no-margin padding-10px vertical-align-middle white-space-normal">
+								<b>
+									X
+								</b>
+							</p>
+						</li>
+						<li class="list-group-item border-none padding-0">
+							<table>
+							<tr>
+								<td><span class="glyphicon glyphicon-ok padding-10px inline-block"></span></td>
+								<td><p id="desc1" class="inline-block row-no-margin padding-10px vertical-align-middle">
+								X
+							</p></td>
+							</tr>
+							</table>
+						</li>
+						<li class="list-group-item border-none white-space-nowrap padding-0">
+							<table>
+							<tr>
+								<td><span class="glyphicon glyphicon-ok padding-10px inline-block"></span></td>
+								<td><p id="desc2" class="inline-block row-no-margin padding-10px vertical-align-middle white-space-normal">
+								X
+								</p></td>
+							</tr>
+							</table>
+						</li>
+						<li class="list-group-item border-none white-space-nowrap padding-0">
+							<table>
+							<tr>
+								<td><span class="glyphicon glyphicon-ok padding-10px inline-block"></span></td>
+								<td><p id="desc3" class="inline-block row-no-margin padding-10px vertical-align-middle white-space-normal">
+								X
+							</p></td>
+							</tr>
+							</table>
+						</li>
+						</ul>
+<!-- End loaded details -->	
+						<div class="row padding-bottom-10">
+							<div class="col-sm-4 col-sm-push-1">
+								<button type="button" class="btn btn-default btn-block btnDefault shadow-bottom" id="viewMore">VIEW MORE</button>
+							</div>
+						</div>
+											
+					</div>
+					<div class="col-xs-4 col-lg-5 col-centered">
+						<div class="parent fill-height desktopHidden">
+							<div class="child">
+								<img src="assets/images/device.png" alt="myPOS Model" class="productImage img-responsive">
+								<img id="" src="assets/images/shadow.png" alt="myPOS Model Shadow" class="shadowImage position-absolute">
+							</div>
+						</div>
+						<img src="assets/images/device.png" alt="myPOS Model" class="productImage mobileHidden img-responsive position-absolute" style="bottom: -100px;right: 150px;height: 450px;width:auto!important;max-width:none!important">
+						<img src="assets/images/shadow.png" alt="myPOS Model Shadow" class="shadowImage z-index-bottom-2 mobileHidden position-absolute" style="bottom: -150px;right: -400px;">
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of fBody -->
+	
+	<!-- Start of gBody -->
+	
+	<div id="gBody" class="row" style="height:186px;">
+		<div class="col-xs-10 col-xs-push-1 col-sm-6 col-sm-push-3 col-lg-4 col-lg-push-4 fill-height">
+			<div class="margin-0-auto fill-height" style="max-height:100%;">
+			
+				<img src="assets/images/arrows.png" alt="Arrows Image" class="smallestHidden fill-height position-absolute">
+				<div class="parent fill-height">
+					<div class="child text-left">
+						<h2>Compare Models</h2>
+						<small><i>View a side by side comparison of the available models and choose which best suits your business' needs.</i></small>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+	
+	<!-- End of gBody -->
+	
+	<!-- Start of hBody -->
+	
+	<div id="hBody" class="row">
+		<div class="col-xs-12" style="background-image: url(assets/images/testimonialsbg.png); background-size:cover; background-position:top;">
+		<div id="filter2" class="fill-both top-0-left-0 position-absolute"></div>
+			<div class="row">
+			<div class="col-sm-8 col-sm-push-2 col-lg-6 col-lg-push-3">
+				<div id="testimonials">
+					<div id="testimonial1" class="parent testimonial margin-0-auto text-center text-shadow">
+							<div class="child">
+								<p>“</p>
+								<h2>MasterCard about myPOS - A revolutionary concept in the payment industry</h2>
+								<p>The ability to accept payments with the use of MPOS and at the same time with instant access to those funds through MasterCard Business card is a revolutionary concept in the payment industry... I find it is as a great solution for SMEs since it will also help business improve cash flow and overcome one of their key challenges - collecting payments rapidly and avoiding delinquencies.</p>
+								<p>_____</p>
+								<div>
+								<p class="row-no-margin">Arthur Turemka</p>
+								<p>Senior Manager at MasterCard</p>
+							</div>	
+						</div>					
+					</div>
+				</div>
+                <div id="testimonialsBtnMenu" class="text-center padding-bottom-20">
+        	<!-- svg buttons loaded from javascript, based on ajax callback -->
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+	<!-- End of hBody -->
+	
+	<!-- Start of jBody -->
+	
+	<div id="jBody" class="row overflow-hidden padding-top-60">	
+		<div class="col-xs-12 overflow-hidden">
+			<div class="row">
+				<div class="col-sm-8 col-sm-push-2 col-md-4 col-md-push-2 col-xs-10 col-xs-push-1 leftRowImage padding-0 text-center">
+					<img id="cube" src="assets/images/cube.png" alt="Cube">
+				</div>
+				<div class="col-sm-8 col-sm-push-2 col-md-4 col-md-push-2 col-xs-10 col-xs-push-1 rightRowContent padding-top-60 text-left">
+					<h2 class="padding-bottom-20">Complete Payment Solution</h2> 
+					<p class="padding-bottom-20">No need of bank account and no need to wait for your money. myPOS pays your funds to an E-Money Account immediately after the transaction.</p>
+					<p class="padding-bottom-20">You can collect the processed payments and make SEPA/SWIFT transfers to any bank account you wish. Your E-Money Account (with IBAN) comes for FREE.</p> 
+					<button type="button" class="bg-lightblue btn btn-default btn-block btnDefault shadow-bottom desktopWidthViewMore" id="viewMoreCube">VIEW MORE</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-8 col-sm-push-2 col-md-4 col-md-push-2 col-xs-10 col-xs-push-1 leftRowContent padding-top-60 text-left">
+					<h2 class="padding-bottom-20">One Account - Multiple Devices</h2> 
+					<p class="padding-bottom-20">Manage your money, IBANs, cards and all myPOS devices through a secure single account.</p>
+					<p class="padding-bottom-20">Make outgoing bank transfers, mass transfers and standing orders with ease. Advanced settings allow multiple user access with different user rights.</p> 
+					<button type="button" class="bg-lightblue btn btn-default btn-block btnDefault shadow-bottom desktopWidthViewMore" id="viewMoreRandomCubes">VIEW MORE</button>
+				</div>
+				<div class="uneven col-sm-8 col-sm-push-2 col-md-4 col-md-push-2 col-xs-10 col-xs-push-1 rightRowImage padding-0 padding-top-60 text-center">
+					<img id="randomCubes" src="assets/images/random.png" alt="Random Cubes">
+				</div>
+			</div>			
+			<div class="row">
+				<div class="col-sm-8 col-sm-push-2 col-md-4 col-md-push-2 col-xs-10 col-xs-push-1 leftRowImage padding-0 padding-top-60 text-center">
+					<img id="randomRedCubes" src="assets/images/random2.png" alt="Random Red Cubes">
+				</div>
+				<div class="col-sm-8 col-sm-push-2 col-md-4 col-md-push-2 col-xs-10 col-xs-push-1 rightRowContent padding-top-60">
+					<h2 class="padding-bottom-20">Convenient All-In-One Package</h2> 
+					<p class="padding-bottom-20">We've developed a product that makes card acceptance easy and accessible. myPOS package is especially designed for merchants who seek a comfortable hassle-free payment experience with minimal financial commitments.</p>
+					<p class="padding-bottom-20">You get a POS device, business account with free IBANs in multiple currencies, and a free business MasterCard linked to your account. All-in-one solution to many issues.</p> 
+					<button type="button" class="bg-lightblue btn btn-default btn-block btnDefault shadow-bottom desktopWidthViewMore" id="viewMoreRandomRedCubes">VIEW MORE</button>
+				</div>
+			</div>				 
+			<div class="row">
+				<div class="col-sm-8 col-sm-push-2 col-md-4 col-md-push-2 col-xs-10 col-xs-push-1 leftRowContent padding-top-60 text-left">
+					<h2 class="padding-bottom-20">Quickly Enhance Your Web Payments With myPOS Virtual</h2> 
+					<p class="padding-bottom-20">Managing a successful online business might be very rewarding, yet challenging at the same time.</p>
+					<p class="padding-bottom-20">eCommerce has been rapidly evolving - your customers are better informed and have higher expectations, while you have to compete for a market shate on all the different channels.</p> 
+					<button type="button" class="bg-lightblue btn btn-default btn-block btnDefault shadow-bottom desktopWidthViewMore" id="viewMoreRocket">VIEW MORE</button>
+				</div>
+				<div class="uneven col-sm-8 col-sm-push-2 col-md-4 col-md-push-2 col-xs-10 col-xs-push-1 rightRowImage padding-0 padding-top-60 text-center">
+					<img id="rocket" src="assets/images/rocket.png" alt="Flying Rocket">
+				</div>
+			</div>
+			<div class="row">
+				<div id="laptopContainer" class="col-xs-10 col-xs-push-1 text-center">
+					<img src="assets/images/laptopAndLine.png" alt="Laptop" class="z-index-bottom-2 laptop position-absolute bottom-0 left-0 right-0 margin-0-auto">
+					<img src="assets/images/laptop.png" alt="Laptop" class="z-index-bottom-2 laptop position-absolute bottom-0 left-0 right-0 margin-0-auto">
+					<img id="laptopArrow" src="assets/images/rocketArrow.png" alt="Laptop Arrow" class="z-index-bottom-2 position-absolute margin-0-auto z-index-bottom-2">
+					<img id="random2Arrow" src="assets/images/random2Arrow.png" alt="Random Red Cubes Arrow" class="z-index-bottom-2 position-absolute margin-0-auto z-index-bottom-2">
+					<img id="randomArrow" src="assets/images/rocketArrow.png" alt="Random Cube Arrow" class="z-index-bottom-2 position-absolute margin-0-auto z-index-bottom-2">
+					<img id="cubeArrow" src="assets/images/cubeArrow.png" alt="Cube Arrow" class="z-index-bottom-2 position-absolute margin-0-auto z-index-bottom-2">
+					<img id="cubeArrow2" src="assets/images/random2Arrow.png" alt="Cube Arrow" class="z-index-bottom-2 hidden position-absolute margin-0-auto z-index-bottom-2">
+				
+				</div>
+			</div>
+			<div id="sponsors" class="row">
+				<div class="col-sm-3 col-lg-2 col-lg-push-2 text-center">
+					<img src="assets/images/logo1.png" alt="Woo Commerce" class="inline-block">
+				</div>
+				<div class="col-sm-3 col-lg-2 col-lg-push-2 text-center">
+					<img src="assets/images/logo2.png" alt="Zen Cart" class="logoImg inline-block">
+				</div>
+				<div class="col-sm-3 col-lg-2 col-lg-push-2 text-center">
+					<img src="assets/images/logo3.png" alt="Magento" class="logoImg inline-block">
+				</div>
+				<div class="col-sm-3 col-lg-2 col-lg-push-2 text-center">
+					<img src="assets/images/logo4.png" alt="Open Cart" class="logoImg inline-block">
+				</div>
+										
+			</div>
+
+
+
+			
+		</div>
+	</div>
+	<!-- End of jBody -->
+	
+	<!-- Start of kBody -->
+	
+	<div id="kBody" class="row overflow-hidden" style="height:120px;">
+		<div class="col-xs-10 col-xs-push-1 col-sm-6 col-sm-push-3 col-lg-4 col-lg-push-4 fill-height">
+			<div class="margin-0-auto fill-height" style="max-height:100%;">
+			
+				<img src="assets/images/order.png" alt="Arrows Image" class="smallestHidden fill-height position-absolute">
+				<div class="parent fill-height">
+					<div class="child text-left">
+						<h2 class="white-space-nowrap row-no-margin">Order Package</h2>
+						<small><i>Get your hands on the unique all in one package and excell your business to a new level.</i></small>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+	
+	<!-- End of gBody -->
+	
+	<!-- Start of footer -->
+	
+	<div id="footer" class="row">
+		<div class="col-xs-10 col-xs-push-1 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2  padding-top-10">
+			<div id="top">
+			
+				<button type="button" class="bg-lightblue btn btn-default btn-block btnDefault shadow-bottom desktop-width-15 btn-md-inline vertical-align-top margin-md-0" id="login">LOGIN</button>
+				<button type="button" class="bg-lightblue btn btn-default btn-block btnDefault shadow-bottom desktop-width-15 btn-md-inline vertical-align-top margin-md-0" id="signUp">SIGN UP</button>
+				<button type="button" class="btn btn-default btn-block btnDefault shadow-bottom desktop-width-30 btn-md-inline vertical-align-top margin-md-0" id="activatePos">ACTIVATE myPOS</button>
+				
+				<div class="mobile-float-none text-center mobile-padding-10">
+					<small class="inline-block">CHANGE LANGUAGE: </small> 
+				<div class="dropdown inline-block">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+					<small id="language" class="inline-block">ENGLISH</small><img src="assets/images/eng.png" alt="ENG"> <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li class="text-center"><a href="#"><img src="assets/images/it.png" alt="IT"></a></li>
+					</ul>
+				</div>
+				</div>
+				
+			</div>
+			<div id="mid" class="row padding-top-20">
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<div class="row padding-20px">
+							<div class="col-sm-6  padding-bottom-20">
+								<small>LEGAL</small>
+								<ul class="padding-0 padding-top-10">
+									<li><a href="#"><small>Legal Documents</small></a></li>
+									<li><a href="#"><small>Compliance</small></a></li>
+									<li><a href="#"><small>Currency Exchange Rate</small></a></li>
+								</ul>
+							</div>
+							<div class="col-sm-6">
+								<small>ABOUT</small>
+								<ul class="padding-0 padding-top-10">
+									<li><a href="#"><small>Contacts</small></a></li>
+									<li><a href="#"><small>Compare</small></a></li>
+									<li><a href="#"><small>Testimonials</small></a></li>
+									<li><a href="#"><small>Resources</small></a></li>
+									<li><a href="#"><small>Frequently Asked Questions</small></a></li>
+								</ul>
+							</div>					
+						</div>
+
+					</div>
+					<div class="col-sm-6">
+						<div class="row padding-20px">
+							<div class="col-sm-6">
+								<small>FEATURES</small>
+								<ul class="padding-0 padding-top-10 padding-bottom-20">
+									<li><a href="#"><small>myPOS Account</small></a></li>
+									<li><a href="#"><small>myPOS Virtual</small></a></li>
+									<li><a href="#"><small>Business Card</small></a></li>
+									<li><a href="#"><small>Private Label</small></a></li>
+								</ul>
+							</div>
+							<div class="col-sm-6">
+								<small>CONTACT US</small>
+								<ul class="padding-0 padding-top-10">
+									<li><a href="#"><small>sales@mypos.eu</small></a></li>
+									<li><a href="#"><small>support@mypos.eu</small></a></li>
+									<li><a href="#"><img src="assets/images/social.png" alt="Facebook" class="margin-top-bottom-10"></a></li>
+									<li id="sendMessage"><a href="#"><p class="inline-block vertical-align-middle">SEND A MESSAGE</p></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="bot" class="padding-top-20 padding-bottom-20">
+				<small>Satabank P.L.C. with registration number C66993, SWIFT/BIC: STBAMTMT, Malta is credit institution licensed by the Malta Financial Services Authority under the Banking Act (1994)</small>
+			</div>
+		</div>
+	</div>
+	
+	<!-- End of footer -->
+</div>
+</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/main.js"></script>	
+</body>
+</html>
